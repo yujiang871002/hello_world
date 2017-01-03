@@ -5,15 +5,15 @@
 
 - **第一步** ：建立本地Git仓库
 
-git init
+> git init
 
 - **第二步** ：将本地项目工作区的所有文件添加到暂存区
 
-git add .
+> git add .
 
 - **第三步** ：将暂存区的文件提交到本地仓库
 
-git commit -m "first commit"
+> git commit -m "first commit"
 
 > **注意：**在冒号里面写注释语句
 
@@ -21,11 +21,11 @@ git commit -m "first commit"
 
 - **第五步** ：将本地仓库关联到Github远程仓库
 
-git remote add origin https://github.com/yujiang871002/hello_world.git
+> git remote add origin https://github.com/yujiang871002/hello_world.git
 
 - **第六步** ：由本地仓库上传到Github远程仓库
 
-git push -u origin master
+> git push -u origin master
 
 ## 一些常用命令
 撤销修改：git checkout -- file
