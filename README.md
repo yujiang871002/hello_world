@@ -1,36 +1,33 @@
 # hello_world
-一个学习、测试及使用git、github、markdown等工具的工程
-
+@(示例)[git|github|Markdown]
 
 ## 使用终端命令行将本地项目上传到Github
 
-第一步：建立本地Git仓库
+- **第一步** ：建立本地Git仓库
 
-切换到本地项目的根目录下, 执行git init命令, 使之成为一个git仓库。
+git init
 
-第二步：将本地项目工作区的所有文件添加到暂存区
+- **第二步** ：将本地项目工作区的所有文件添加到暂存区
 
 git add .
 
-如果想添加项目中的指定文件，那就把.改为指定文件名即可
-
-第三步：将暂存区的文件提交到本地仓库
+- **第三步** ：将暂存区的文件提交到本地仓库
 
 git commit -m "first commit"
 
-注意：冒号里面写注释语句
+> **注意：**在冒号里面写注释语句
 
-第四步：在Github上创建自己的repository
+- **第四步** ：在Github上创建自己的repository
 
-第五步：将本地仓库关联到Github上
+- **第五步** ：将本地仓库关联到Github远程仓库
 
 git remote add origin https://github.com/yujiang871002/hello_world.git
 
-第六步：最后一步，将代码由本地仓库上传到Github远程仓库
+- **第六步** ：由本地仓库上传到Github远程仓库
 
 git push -u origin master
 
-# 一些常用命令
+## 一些常用命令
 撤销修改：git checkout -- file
 
 删除文件：git rm file
